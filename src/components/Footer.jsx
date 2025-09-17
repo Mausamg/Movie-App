@@ -12,7 +12,7 @@ function Footer() {
           Contact
         </Link>
       </div>
-      <p className="text-sm hover: text-white">Created by our Team</p>
+      <p className="text-sm hover: text-white">Created by Mausam G</p>
     </footer>
   );
 }
