@@ -8,7 +8,6 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { setBannerData, setImageURL } from "./store/movieoSlice.jsx";
-import LoginForm from "./components/LoginForm.jsx";
 
 function App() {
   const dispatch = useDispatch();
