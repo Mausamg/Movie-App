@@ -1,6 +1,5 @@
 import BannerHome from "./BannerHome";
 import { useSelector } from "react-redux";
-import Cards from "../components/Cards";
 import Scroll from "../components/Scroll";
 import UseFetch from "./UseFetch";
 
