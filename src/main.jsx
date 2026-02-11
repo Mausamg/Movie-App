@@ -4,7 +4,7 @@ import App from "./App.jsx";
 import { BrowserRouter } from "react-router";
 import axios from "axios";
 import { Provider } from "react-redux";
-import { store } from "./store/Store.jsx";
+import { store } from "./store/store.jsx";
 import { AuthProvider } from "./context/authProvider.jsx";
 
 axios.defaults.baseURL = "https://api.themoviedb.org/3";
@@ -21,5 +21,5 @@ createRoot(document.getElementById("root")).render(
         <App />
       </BrowserRouter>
     </AuthProvider>
-  </Provider>
+  </Provider>,
 );
